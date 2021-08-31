@@ -15,3 +15,4 @@ Os principais comandos utilizados para gerenciar o versionamento foram:
 - **git pull** -> faz download das alterações (arquivos) do repositório remoto para o repositório local.
 
 Lembrei do comando: git commit
+Lembrei do comando: git status
