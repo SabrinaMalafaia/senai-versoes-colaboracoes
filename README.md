@@ -45,7 +45,6 @@ As atividades realizadas no módulo UC9 do Senai foram:
 
 
 ### Autor
-
 <img alt="Sabrina" title="Sabrina" src="https://avatars.githubusercontent.com/u/89711999?v=4" height="100" width="100" />
 
 by Sabrina Malafaia 🎓
