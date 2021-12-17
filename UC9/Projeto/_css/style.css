@@ -1,0 +1,194 @@
+/*comentário na CSS*/
+
+/* Seletores Personalizados:
+    #  = class
+    .  = id
+    :  = pseudo-class
+    :: = pseudo-element
+    >  = children (filho)
+*/
+
+@charset "UTF-8";
+
+/*Fonte Externa - Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*Fonte Externa - Local*/
+@font-face {
+    font-family: "plateia";
+src: url("../_fonts/Plateia Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color: white;
+    min-height: 150px;
+}
+
+nav{
+    background-color: white;
+    padding: 10px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    background-color: black;
+    color: white;
+}
+
+main{
+    background-color: darkgray;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;    
+}
+
+h2{
+    font-family: plateia;
+    text-align: center;
+}
+
+p{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: black;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: block;
+    margin: auto;
+    width: 800px;
+    height: 345px;
+    left: 0px;
+    top: 2346px;
+}
+
+footer nav{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+li{
+    text-decoration: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/*.logo{
+    position: absolute;
+    width: 112px;
+    height: 44px;
+    left: 40px;
+    top: 43px;
+}
+
+#botao{
+
+}
+
+#menu-header{
+    position: absolute;
+    width: 595px;
+    height: 28px;
+    left: 669px;
+    top: 50px;
+    mix-blend-mode: normal;
+}
+
+#banner{
+    position: absolute;
+    width: 1920px;
+    height: 488px;
+    left: 0px;
+    top: 122px;
+}
+
+#dados1{
+    position: absolute;
+    width: 798px;
+    height: 390px;
+    left: 129px;
+    top: 743px;
+}
+
+#dados2{
+    position: absolute;
+    width: 798px;
+    height: 390px;
+    left: 1003px;
+    top: 743px;
+}
+
+#mario{
+    position: absolute;
+    width: 508px;
+    height: 530px;
+    left: 130px;
+    top: 99px;
+}
+
+#yoschi{
+    position: absolute;
+    width: 508px;
+    height: 530px;
+    left: 714px;
+    top: 102px;
+}
+
+#luigi{
+    position: absolute;
+    width: 508px;
+    height: 530px;
+    left: 1299px;
+    top: 102px;
+}
+
+#headset{
+    position: absolute;
+    width: 377px;
+    height: 392px;
+    left: 129px;
+    top: 1923px;
+}
+
+#x-box{
+    position: absolute;
+    width: 377px;
+    height: 392px;
+    left: 561px;
+    top: 1923px;
+}
+
+#playstation{
+    position: absolute;
+    width: 377px;
+    height: 392px;
+    left: 992px;
+    top: 1923px;
+}
+
+#gameboy{
+    position: absolute;
+    width: 377px;
+    height: 392px;
+    left: 1427px;
+    top: 1923px;
+}*/
